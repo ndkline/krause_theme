@@ -1,0 +1,11 @@
+global:
+  version: VERSION
+  css:
+    base:
+      css/krause_theme.css: {}
+      css/font-awesome.css: {}
+  js:
+    js/krause_theme.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery

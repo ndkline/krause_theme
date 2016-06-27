@@ -1,0 +1,41 @@
+// Non-modular or client styles for .l-header region.
+
+// Cover Image and Title
+// TODO: make responsive
+#block-frontpagebanner > h2{
+    width: 60%;
+    height: 20%;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+
+    text-shadow: 0px 0px 11px black, 0px 0px 29px black;
+    color: white;
+    font-size: 3em;
+  }
+
+ #block-frontpagebanner > div:nth-child(3) > div > div > div{
+ 	text-align: center;
+ }
+
+ #block-frontpagebanner > div:nth-child(3) > div > div > div > a > i{
+ 	font-size: 300%;
+ }
+
+ #block-frontpagebanner > div:nth-child(3) > div > div > div > a{
+    width: 60%;
+    height: 10%;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 30%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+ }
