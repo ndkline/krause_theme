@@ -72,11 +72,11 @@
     <aside class="right-off-canvas-menu">
       {{ page.right_off_canvas }}
     </aside>
-
       {% if page.meta_header %}
         {% if meta_header_grid %}
           <div class="row">
             <div class="large-12 columns">
+
         {% endif %}
         {{ page.meta_header }}
         {% if meta_header_grid %}
@@ -101,6 +101,11 @@
           </div>
         {% endif %}
       </header>
+
+      {% if is_front %}
+        {# <a href="#node-1"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i></a> #}
+        <img alt="placeholder image" data-align="center" data-entity-type="file" data-entity-uuid="6bd857ba-77a7-4798-92a5-f3afefc7064b" src="/themes/krause_theme/images/background.svg" />
+      {% endif %}
 
       {% if page.header %}
         <div class="row">
