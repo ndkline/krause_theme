@@ -43,7 +43,7 @@ function krause_theme_preprocess_page(&$variables) {
  */
 function krause_theme_preprocess_views_view(&$variables) {}
 
-function krause_theme_preprocess_menu(&$variables) {
+function krause_theme_preprocess(&$variables, $hook) {
   try {
     $variables['is_front'] = \Drupal::service('path.matcher')->isFrontPage();
   }
