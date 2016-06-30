@@ -42,3 +42,12 @@ function krause_theme_preprocess_page(&$variables) {
  * Implements template_preprocess_views_view().
  */
 function krause_theme_preprocess_views_view(&$variables) {}
+
+function krause_theme_preprocess_menu(&$variables) {
+  try {
+    $variables['is_front'] = \Drupal::service('path.matcher')->isFrontPage();
+  }
+  catch (Exception $e) {
+    $variables['is_front'] = FALSE;
+  }
+}

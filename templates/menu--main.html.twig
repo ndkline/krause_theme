@@ -21,12 +21,17 @@
 #}
 
 {% if top_bar %}
-  <div class="{{ top_bar_classes }}">
+  <div data-magellan-expedition="fixed" class="{{ top_bar_classes }}">
     <nav class="top-bar" data-topbar data-options="{{ top_bar_options }}" >
       <ul class="title-area">
         <li class="name">
-          {# <h1><a href="#">{{ site_name }}</a></h1> #}
-          <img src="/themes/krause_theme/images/psuEdLogo.png" >
+          {% if is_front %}
+            <h1><a href="#">{{ site_name }}</a></h1>
+          {% else  %}
+            <a href="http://ed.psu.edu">
+              <img src="/themes/krause_theme/images/psuEdLogo.png" >
+            </a>
+          {% endif %}
         </li>
         <li class="toggle-topbar menu-icon">
           <a href="#"><span>{{ top_bar_menu_text }}</span></a>

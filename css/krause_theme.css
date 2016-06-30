@@ -7722,9 +7722,9 @@ meta.foundation-mq-topbar {
 }
 /* line 373, ../../zurb_foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li:hover:not(.has-form) > a {
-  background-color: #555555;
+  background-color: #cfe6b5;
   color: #000000;
-  background: #222222;
+  background: #cfe6b5;
 }
 /* line 383, ../../zurb_foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li.active > a {
@@ -7921,8 +7921,8 @@ meta.foundation-mq-topbar {
   }
   /* line 553, ../../zurb_foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li.hover > a:not(.button) {
-    background-color: #555555;
-    background: #222222;
+    background-color: #cfe6b5;
+    background: #cfe6b5;
     color: #000000;
   }
   /* line 563, ../../zurb_foundation/scss/foundation/components/_top-bar.scss */
@@ -7933,8 +7933,8 @@ meta.foundation-mq-topbar {
   }
   /* line 567, ../../zurb_foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li:not(.has-form) a:not(.button):hover {
-    background-color: #555555;
-    background: #222222;
+    background-color: #cfe6b5;
+    background: #cfe6b5;
   }
   /* line 577, ../../zurb_foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li.active:not(.has-form) a:not(.button) {
@@ -8003,9 +8003,9 @@ meta.foundation-mq-topbar {
   }
   /* line 654, ../../zurb_foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section .dropdown li:not(.has-form):not(.active):hover > a:not(.button) {
-    background-color: #555555;
+    background-color: #cfe6b5;
     color: #000000;
-    background: #222222;
+    background: #cfe6b5;
   }
   /* line 663, ../../zurb_foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section .dropdown li label {
@@ -8054,8 +8054,8 @@ meta.foundation-mq-topbar {
 
   /* line 716, ../../zurb_foundation/scss/foundation/components/_top-bar.scss */
   .no-js .top-bar-section ul li:hover > a {
-    background-color: #555555;
-    background: #222222;
+    background-color: #cfe6b5;
+    background: #cfe6b5;
     color: #000000;
   }
   /* line 725, ../../zurb_foundation/scss/foundation/components/_top-bar.scss */
@@ -10217,7 +10217,7 @@ th.hide-for-touch {
 }
 /* line 9, ../scss/layout/_main.scss */
 .top-bar-section ul li a.is-active {
-  color: red;
+  color: #000000;
 }
 
 /* line 15, ../scss/layout/_main.scss */
@@ -10261,6 +10261,55 @@ th.hide-for-touch {
 }
 
 /* line 60, ../scss/layout/_main.scss */
-#block-krause-theme-main-menu > div.sticky > nav > ul > li.name > img {
+#block-krause-theme-main-menu > div.sticky > nav > ul > li.name > a > img {
   height: 100%;
+}
+
+/* line 67, ../scss/layout/_main.scss */
+#block-community ul,
+#block-offerings ul,
+#block-research ul {
+  margin: 0;
+}
+/* line 70, ../scss/layout/_main.scss */
+#block-community ul li,
+#block-offerings ul li,
+#block-research ul li {
+  list-style: none;
+  margin: 10px 0;
+  background: #88C045;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  border: solid #88C045 1px;
+  border-radius: 50px;
+  color: white;
+}
+/* line 83, ../scss/layout/_main.scss */
+#block-community ul li a,
+#block-offerings ul li a,
+#block-research ul li a {
+  color: #FFFFFF;
+}
+
+/* line 93, ../scss/layout/_main.scss */
+#block-offerings > ul > li {
+  background-color: #ED0090;
+  border-color: #ED0090;
+}
+
+/* line 94, ../scss/layout/_main.scss */
+#block-community > ul > li {
+  background-color: #F29814;
+  border-color: #F29814;
+}
+
+/* line 97, ../scss/layout/_main.scss */
+#block-collegeofedlogo {
+  position: absolute;
+  z-index: 10;
+  width: 40%;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 20px;
+  padding: 1% 4%;
 }

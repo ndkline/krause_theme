@@ -7,7 +7,7 @@
 .top-bar-section ul li {
     padding-top: 0;
     a.is-active {
-        color: red;
+        color: $black;
     }
 }
 
@@ -17,7 +17,7 @@
 	background-repeat: no-repeat;
 	background-size: 100%;
 
-	// border-bottom:solid $green 1px;
+	// border-bottom:solid $$green 1px;
 
 	div:nth-child(2){
 		width: 20%;
@@ -57,9 +57,54 @@
 
 }
 
-#block-krause-theme-main-menu > div.sticky > nav > ul > li.name > img{
+#block-krause-theme-main-menu > div.sticky > nav > ul > li.name > a > img{
 	height: 100%;
 }
+
+#block-community,
+#block-offerings,
+#block-research {
+	ul {
+		margin:0;
+
+		li {
+
+		    list-style: none;
+		    margin: 10px 0;
+
+		     background: $green;
+		    width: 100%;
+		    text-align: center;
+		    padding: 10px;
+		    border: solid $green 1px;
+		    border-radius: 50px;
+		    color: white;
+
+		    a{
+		    	color:$white;
+		    	
+		    }
+		}
+	}
+
+
+}
+
+#block-offerings > ul > li {background-color:$pink;border-color:$pink }
+#block-community > ul > li {background-color:$orange;border-color:$orange }
+
+
+#block-collegeofedlogo {
+    position: absolute;
+    z-index: 10;
+    width: 40%;
+    background: rgba(255,255,255,0.9);
+    border-radius: 20px;
+    padding: 1% 4%;
+}
+
+
+
 
 // body{
 // 	background: url('/themes/krause_theme/images/cheap_diagonal_fabric.png');
