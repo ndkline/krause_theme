@@ -7317,8 +7317,8 @@ table tr td {
 }
 /* line 113, ../../zurb_foundation/scss/foundation/components/_top-bar.scss */
 meta.foundation-mq-topbar {
-  font-family: "/only screen and (min-width:51.625em)/";
-  width: 51.625em;
+  font-family: "/only screen and (min-width: 600px)/";
+  width: 600px;
 }
 
 /* Wrapped around .top-bar to contain to grid width */
@@ -7838,7 +7838,7 @@ meta.foundation-mq-topbar {
   display: block;
 }
 
-@media only screen and (min-width: 51.625em) {
+@media only screen and (min-width: 600px) {
   /* line 492, ../../zurb_foundation/scss/foundation/components/_top-bar.scss */
   .top-bar {
     background: #FFFFFF;
@@ -10220,13 +10220,13 @@ th.hide-for-touch {
   color: #000000;
 }
 
-/* line 15, ../scss/layout/_main.scss */
+/* line 14, ../scss/layout/_main.scss */
 #block-sitebranding {
   background: url("/themes/krause_theme/images/background.svg");
   background-repeat: no-repeat;
   background-size: 100%;
 }
-/* line 22, ../scss/layout/_main.scss */
+/* line 21, ../scss/layout/_main.scss */
 #block-sitebranding div {
   width: 20%;
   padding: 20% 0;
@@ -10235,43 +10235,43 @@ th.hide-for-touch {
   text-align: left;
   font-weight: 900;
 }
-/* line 30, ../scss/layout/_main.scss */
+/* line 29, ../scss/layout/_main.scss */
 #block-sitebranding div a {
   font-size: 400%;
 }
 @media only screen and (max-width: 1230px) {
-  /* line 37, ../scss/layout/_main.scss */
+  /* line 36, ../scss/layout/_main.scss */
   #block-sitebranding div {
     padding: 15% 0;
   }
-  /* line 40, ../scss/layout/_main.scss */
+  /* line 39, ../scss/layout/_main.scss */
   #block-sitebranding div a {
     font-size: 350%;
   }
 }
 @media only screen and (max-width: 730px) {
-  /* line 47, ../scss/layout/_main.scss */
+  /* line 46, ../scss/layout/_main.scss */
   #block-sitebranding div {
     padding: 10% 0;
   }
-  /* line 50, ../scss/layout/_main.scss */
+  /* line 49, ../scss/layout/_main.scss */
   #block-sitebranding div a {
     font-size: 250%;
   }
 }
 
-/* line 60, ../scss/layout/_main.scss */
+/* line 59, ../scss/layout/_main.scss */
 #block-krause-theme-main-menu > div.sticky > nav > ul > li.name > a > img {
   height: 100%;
 }
 
-/* line 67, ../scss/layout/_main.scss */
+/* line 66, ../scss/layout/_main.scss */
 #block-community ul,
 #block-offerings ul,
 #block-research ul {
   margin: 0;
 }
-/* line 70, ../scss/layout/_main.scss */
+/* line 69, ../scss/layout/_main.scss */
 #block-community ul li,
 #block-offerings ul li,
 #block-research ul li {
@@ -10285,26 +10285,26 @@ th.hide-for-touch {
   border-radius: 50px;
   color: white;
 }
-/* line 83, ../scss/layout/_main.scss */
+/* line 82, ../scss/layout/_main.scss */
 #block-community ul li a,
 #block-offerings ul li a,
 #block-research ul li a {
   color: #FFFFFF;
 }
 
-/* line 93, ../scss/layout/_main.scss */
+/* line 92, ../scss/layout/_main.scss */
 #block-offerings > ul > li {
   background-color: #ED0090;
   border-color: #ED0090;
 }
 
-/* line 94, ../scss/layout/_main.scss */
+/* line 93, ../scss/layout/_main.scss */
 #block-community > ul > li {
   background-color: #F29814;
   border-color: #F29814;
 }
 
-/* line 97, ../scss/layout/_main.scss */
+/* line 96, ../scss/layout/_main.scss */
 #block-collegeofedlogo {
   position: absolute;
   z-index: 10;
