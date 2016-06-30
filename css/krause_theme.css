@@ -10241,21 +10241,21 @@ th.hide-for-touch {
 }
 @media only screen and (max-width: 1230px) {
   /* line 37, ../scss/layout/_main.scss */
-  #block-sitebranding div:nth-child(2) {
+  #block-sitebranding div {
     padding: 15% 0;
   }
   /* line 40, ../scss/layout/_main.scss */
-  #block-sitebranding div:nth-child(2) a {
+  #block-sitebranding div a {
     font-size: 350%;
   }
 }
 @media only screen and (max-width: 730px) {
   /* line 47, ../scss/layout/_main.scss */
-  #block-sitebranding div:nth-child(2) {
+  #block-sitebranding div {
     padding: 10% 0;
   }
   /* line 50, ../scss/layout/_main.scss */
-  #block-sitebranding div:nth-child(2) a {
+  #block-sitebranding div a {
     font-size: 250%;
   }
 }
