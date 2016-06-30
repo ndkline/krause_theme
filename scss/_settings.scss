@@ -113,14 +113,20 @@ $tuatara     : #444444;
 $oil         : #333333;
 $jet         : #222222;
 $black       : #000000;
+$red		 : #FF0000;
 
 // We use these as default colors throughout
-$primary-color: #008CBA;
-$secondary-color: #e7e7e7;
-$alert-color: #f04124;
-$success-color: #43AC6A;
-$warning-color: #f08a24;
+$primary-color: #040f7a;
+$secondary-color: #88C045;
+$alert-color: #ED0090;
+$success-color: #88C045;
+$warning-color: #F29814;
 $info-color: #a0d3e8;
+
+$pink : #ED0090;
+$orange : #F29814;
+$green : #88C045;
+$blue: #040f7a;
 
 // We use these to control various global styles
 $body-bg: $white;
@@ -1416,16 +1422,16 @@ $topbar-title-font-size: rem-calc(17);
 // Set the link colors and styles for top-level nav
 $topbar-link-color: $black;
 $topbar-link-color-hover: $black;
-$topbar-link-color-active: $black;
-$topbar-link-color-active-hover: $black;
+$topbar-link-color-active: $red;
+$topbar-link-color-active-hover: $red;
 $topbar-link-weight: $font-weight-normal;
 $topbar-link-font-size: rem-calc(13);
 $topbar-link-hover-lightness: -10%; // Darken by 10%
 $topbar-link-bg: $topbar-bg;
 $topbar-link-bg-hover: $jet;
 $topbar-link-bg-color-hover: $charcoal;
-$topbar-link-bg-active: $primary-color;
-$topbar-link-bg-active-hover: scale-color($primary-color, $lightness: -14%);
+$topbar-link-bg-active: $red;
+$topbar-link-bg-active-hover: $red;
 $topbar-link-font-family: $body-font-family;
 $topbar-link-text-transform: none;
 $topbar-link-padding: ($topbar-height / 3);
@@ -1445,14 +1451,14 @@ $topbar-dropdown-toggle-size: 5px;
 $topbar-dropdown-toggle-color: $black;
 $topbar-dropdown-toggle-alpha: .4;
 
-$topbar-dropdown-label-color: $monsoon;
+$topbar-dropdown-label-color: black;
 $topbar-dropdown-label-text-transform: uppercase;
 $topbar-dropdown-label-font-weight: $font-weight-bold;
 $topbar-dropdown-label-font-size: rem-calc(10);
 $topbar-dropdown-label-bg: $oil;
 
-// Top menu icon styles
-$topbar-menu-link-transform: uppercase;
+// Top menu icon styles 
+$topbar-menu-link-transform: uppercase; 
 $topbar-menu-link-font-size: rem-calc(13);
 $topbar-menu-link-weight: $font-weight-bold;
 $topbar-menu-link-color: $black;
@@ -1476,8 +1482,8 @@ $topbar-divider-border-top: solid 1px scale-color($topbar-bg-color, $lightness: 
 
 // Sticky Class
 $topbar-sticky-class: ".sticky";
-$topbar-arrows: true; //Set false to remove the triangle icon from the menu item
-$topbar-dropdown-arrows: true; //Set false to remove the \00bb >> text from dropdown subnavigation li//
+$topbar-arrows: false; //Set false to remove the triangle icon from the menu item
+$topbar-dropdown-arrows: false; //Set false to remove the \00bb >> text from dropdown subnavigation li//
 
 // 36. Visibility Classes
 // - - - - - - - - - - - - - - - - - - - - - - - - -

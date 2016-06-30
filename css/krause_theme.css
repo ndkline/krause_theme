@@ -2196,8 +2196,8 @@ select {
   padding: 0.875rem 1.5rem 0.875rem 0.875rem;
   position: relative;
   transition: opacity 300ms ease-out;
-  background-color: #008CBA;
-  border-color: #0078a0;
+  background-color: #040f7a;
+  border-color: #030d69;
   color: #FFFFFF;
 }
 /* line 115, ../../zurb_foundation/scss/foundation/components/_alert-boxes.scss */
@@ -2227,33 +2227,33 @@ select {
 }
 /* line 120, ../../zurb_foundation/scss/foundation/components/_alert-boxes.scss */
 .alert-box.success {
-  background-color: #43AC6A;
-  border-color: #3a945b;
+  background-color: #88C045;
+  border-color: #75a839;
   color: #FFFFFF;
 }
 /* line 121, ../../zurb_foundation/scss/foundation/components/_alert-boxes.scss */
 .alert-box.alert {
-  background-color: #f04124;
-  border-color: #de2d0f;
+  background-color: #ED0090;
+  border-color: #cc007c;
   color: #FFFFFF;
 }
 /* line 122, ../../zurb_foundation/scss/foundation/components/_alert-boxes.scss */
 .alert-box.secondary {
-  background-color: #e7e7e7;
-  border-color: #c7c7c7;
-  color: #4f4f4f;
+  background-color: #88C045;
+  border-color: #75a839;
+  color: #FFFFFF;
 }
 /* line 123, ../../zurb_foundation/scss/foundation/components/_alert-boxes.scss */
 .alert-box.warning {
-  background-color: #f08a24;
-  border-color: #de770f;
+  background-color: #F29814;
+  border-color: #d6840c;
   color: #FFFFFF;
 }
 /* line 124, ../../zurb_foundation/scss/foundation/components/_alert-boxes.scss */
 .alert-box.info {
   background-color: #a0d3e8;
   border-color: #74bfdd;
-  color: #4f4f4f;
+  color: #2e4216;
 }
 /* line 125, ../../zurb_foundation/scss/foundation/components/_alert-boxes.scss */
 .alert-box.alert-close {
@@ -2799,13 +2799,13 @@ select {
   margin-left: 0;
   overflow: hidden;
   padding: 0.5625rem 0.875rem 0.5625rem;
-  background-color: #f4f4f4;
-  border-color: gainsboro;
+  background-color: #c9e3ab;
+  border-color: #b6d98e;
   border-radius: 3px;
 }
 /* line 123, ../../zurb_foundation/scss/foundation/components/_breadcrumbs.scss */
 .breadcrumbs > * {
-  color: #008CBA;
+  color: #040f7a;
   float: left;
   font-size: 0.6875rem;
   line-height: 0.6875rem;
@@ -2818,7 +2818,7 @@ select {
 }
 /* line 71, ../../zurb_foundation/scss/foundation/components/_breadcrumbs.scss */
 .breadcrumbs > * a {
-  color: #008CBA;
+  color: #040f7a;
 }
 /* line 76, ../../zurb_foundation/scss/foundation/components/_breadcrumbs.scss */
 .breadcrumbs > *.current {
@@ -2887,14 +2887,14 @@ button, .button {
   display: inline-block;
   padding: 1rem 2rem 1.0625rem 2rem;
   font-size: 1rem;
-  background-color: #008CBA;
-  border-color: #007095;
+  background-color: #040f7a;
+  border-color: #030c62;
   color: #FFFFFF;
   transition: background-color 300ms ease-out;
 }
 /* line 163, ../../zurb_foundation/scss/foundation/components/_buttons.scss */
 button:hover, button:focus, .button:hover, .button:focus {
-  background-color: #007095;
+  background-color: #030c62;
 }
 /* line 169, ../../zurb_foundation/scss/foundation/components/_buttons.scss */
 button:hover, button:focus, .button:hover, .button:focus {
@@ -2902,27 +2902,27 @@ button:hover, button:focus, .button:hover, .button:focus {
 }
 /* line 225, ../../zurb_foundation/scss/foundation/components/_buttons.scss */
 button.secondary, .button.secondary {
-  background-color: #e7e7e7;
-  border-color: #b9b9b9;
-  color: #333333;
+  background-color: #88C045;
+  border-color: #6d9c35;
+  color: #FFFFFF;
 }
 /* line 163, ../../zurb_foundation/scss/foundation/components/_buttons.scss */
 button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
-  background-color: #b9b9b9;
+  background-color: #6d9c35;
 }
 /* line 169, ../../zurb_foundation/scss/foundation/components/_buttons.scss */
 button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
-  color: #333333;
+  color: #FFFFFF;
 }
 /* line 226, ../../zurb_foundation/scss/foundation/components/_buttons.scss */
 button.success, .button.success {
-  background-color: #43AC6A;
-  border-color: #368a55;
+  background-color: #88C045;
+  border-color: #6d9c35;
   color: #FFFFFF;
 }
 /* line 163, ../../zurb_foundation/scss/foundation/components/_buttons.scss */
 button.success:hover, button.success:focus, .button.success:hover, .button.success:focus {
-  background-color: #368a55;
+  background-color: #6d9c35;
 }
 /* line 169, ../../zurb_foundation/scss/foundation/components/_buttons.scss */
 button.success:hover, button.success:focus, .button.success:hover, .button.success:focus {
@@ -2930,13 +2930,13 @@ button.success:hover, button.success:focus, .button.success:hover, .button.succe
 }
 /* line 227, ../../zurb_foundation/scss/foundation/components/_buttons.scss */
 button.alert, .button.alert {
-  background-color: #f04124;
-  border-color: #cf2a0e;
+  background-color: #ED0090;
+  border-color: #be0073;
   color: #FFFFFF;
 }
 /* line 163, ../../zurb_foundation/scss/foundation/components/_buttons.scss */
 button.alert:hover, button.alert:focus, .button.alert:hover, .button.alert:focus {
-  background-color: #cf2a0e;
+  background-color: #be0073;
 }
 /* line 169, ../../zurb_foundation/scss/foundation/components/_buttons.scss */
 button.alert:hover, button.alert:focus, .button.alert:hover, .button.alert:focus {
@@ -2944,13 +2944,13 @@ button.alert:hover, button.alert:focus, .button.alert:hover, .button.alert:focus
 }
 /* line 228, ../../zurb_foundation/scss/foundation/components/_buttons.scss */
 button.warning, .button.warning {
-  background-color: #f08a24;
-  border-color: #cf6e0e;
+  background-color: #F29814;
+  border-color: #c77b0b;
   color: #FFFFFF;
 }
 /* line 163, ../../zurb_foundation/scss/foundation/components/_buttons.scss */
 button.warning:hover, button.warning:focus, .button.warning:hover, .button.warning:focus {
-  background-color: #cf6e0e;
+  background-color: #c77b0b;
 }
 /* line 169, ../../zurb_foundation/scss/foundation/components/_buttons.scss */
 button.warning:hover, button.warning:focus, .button.warning:hover, .button.warning:focus {
@@ -3015,8 +3015,8 @@ button.round, .button.round {
 }
 /* line 242, ../../zurb_foundation/scss/foundation/components/_buttons.scss */
 button.disabled, button[disabled], .button.disabled, .button[disabled] {
-  background-color: #008CBA;
-  border-color: #007095;
+  background-color: #040f7a;
+  border-color: #030c62;
   color: #FFFFFF;
   box-shadow: none;
   cursor: default;
@@ -3024,7 +3024,7 @@ button.disabled, button[disabled], .button.disabled, .button[disabled] {
 }
 /* line 163, ../../zurb_foundation/scss/foundation/components/_buttons.scss */
 button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
-  background-color: #007095;
+  background-color: #030c62;
 }
 /* line 169, ../../zurb_foundation/scss/foundation/components/_buttons.scss */
 button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
@@ -3032,33 +3032,33 @@ button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[dis
 }
 /* line 180, ../../zurb_foundation/scss/foundation/components/_buttons.scss */
 button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
-  background-color: #008CBA;
+  background-color: #040f7a;
 }
 /* line 243, ../../zurb_foundation/scss/foundation/components/_buttons.scss */
 button.disabled.secondary, button[disabled].secondary, .button.disabled.secondary, .button[disabled].secondary {
-  background-color: #e7e7e7;
-  border-color: #b9b9b9;
-  color: #333333;
+  background-color: #88C045;
+  border-color: #6d9c35;
+  color: #FFFFFF;
   box-shadow: none;
   cursor: default;
   opacity: 0.7;
 }
 /* line 163, ../../zurb_foundation/scss/foundation/components/_buttons.scss */
 button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
-  background-color: #b9b9b9;
+  background-color: #6d9c35;
 }
 /* line 169, ../../zurb_foundation/scss/foundation/components/_buttons.scss */
 button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
-  color: #333333;
+  color: #FFFFFF;
 }
 /* line 180, ../../zurb_foundation/scss/foundation/components/_buttons.scss */
 button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
-  background-color: #e7e7e7;
+  background-color: #88C045;
 }
 /* line 244, ../../zurb_foundation/scss/foundation/components/_buttons.scss */
 button.disabled.success, button[disabled].success, .button.disabled.success, .button[disabled].success {
-  background-color: #43AC6A;
-  border-color: #368a55;
+  background-color: #88C045;
+  border-color: #6d9c35;
   color: #FFFFFF;
   box-shadow: none;
   cursor: default;
@@ -3066,7 +3066,7 @@ button.disabled.success, button[disabled].success, .button.disabled.success, .bu
 }
 /* line 163, ../../zurb_foundation/scss/foundation/components/_buttons.scss */
 button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, .button.disabled.success:focus, .button[disabled].success:hover, .button[disabled].success:focus {
-  background-color: #368a55;
+  background-color: #6d9c35;
 }
 /* line 169, ../../zurb_foundation/scss/foundation/components/_buttons.scss */
 button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, .button.disabled.success:focus, .button[disabled].success:hover, .button[disabled].success:focus {
@@ -3074,12 +3074,12 @@ button.disabled.success:hover, button.disabled.success:focus, button[disabled].s
 }
 /* line 180, ../../zurb_foundation/scss/foundation/components/_buttons.scss */
 button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, .button.disabled.success:focus, .button[disabled].success:hover, .button[disabled].success:focus {
-  background-color: #43AC6A;
+  background-color: #88C045;
 }
 /* line 245, ../../zurb_foundation/scss/foundation/components/_buttons.scss */
 button.disabled.alert, button[disabled].alert, .button.disabled.alert, .button[disabled].alert {
-  background-color: #f04124;
-  border-color: #cf2a0e;
+  background-color: #ED0090;
+  border-color: #be0073;
   color: #FFFFFF;
   box-shadow: none;
   cursor: default;
@@ -3087,7 +3087,7 @@ button.disabled.alert, button[disabled].alert, .button.disabled.alert, .button[d
 }
 /* line 163, ../../zurb_foundation/scss/foundation/components/_buttons.scss */
 button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .button.disabled.alert:focus, .button[disabled].alert:hover, .button[disabled].alert:focus {
-  background-color: #cf2a0e;
+  background-color: #be0073;
 }
 /* line 169, ../../zurb_foundation/scss/foundation/components/_buttons.scss */
 button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .button.disabled.alert:focus, .button[disabled].alert:hover, .button[disabled].alert:focus {
@@ -3095,12 +3095,12 @@ button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert
 }
 /* line 180, ../../zurb_foundation/scss/foundation/components/_buttons.scss */
 button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .button.disabled.alert:focus, .button[disabled].alert:hover, .button[disabled].alert:focus {
-  background-color: #f04124;
+  background-color: #ED0090;
 }
 /* line 246, ../../zurb_foundation/scss/foundation/components/_buttons.scss */
 button.disabled.warning, button[disabled].warning, .button.disabled.warning, .button[disabled].warning {
-  background-color: #f08a24;
-  border-color: #cf6e0e;
+  background-color: #F29814;
+  border-color: #c77b0b;
   color: #FFFFFF;
   box-shadow: none;
   cursor: default;
@@ -3108,7 +3108,7 @@ button.disabled.warning, button[disabled].warning, .button.disabled.warning, .bu
 }
 /* line 163, ../../zurb_foundation/scss/foundation/components/_buttons.scss */
 button.disabled.warning:hover, button.disabled.warning:focus, button[disabled].warning:hover, button[disabled].warning:focus, .button.disabled.warning:hover, .button.disabled.warning:focus, .button[disabled].warning:hover, .button[disabled].warning:focus {
-  background-color: #cf6e0e;
+  background-color: #c77b0b;
 }
 /* line 169, ../../zurb_foundation/scss/foundation/components/_buttons.scss */
 button.disabled.warning:hover, button.disabled.warning:focus, button[disabled].warning:hover, button[disabled].warning:focus, .button.disabled.warning:hover, .button.disabled.warning:focus, .button[disabled].warning:hover, .button[disabled].warning:focus {
@@ -3116,7 +3116,7 @@ button.disabled.warning:hover, button.disabled.warning:focus, button[disabled].w
 }
 /* line 180, ../../zurb_foundation/scss/foundation/components/_buttons.scss */
 button.disabled.warning:hover, button.disabled.warning:focus, button[disabled].warning:hover, button[disabled].warning:focus, .button.disabled.warning:hover, .button.disabled.warning:focus, .button[disabled].warning:hover, .button[disabled].warning:focus {
-  background-color: #f08a24;
+  background-color: #F29814;
 }
 /* line 247, ../../zurb_foundation/scss/foundation/components/_buttons.scss */
 button.disabled.info, button[disabled].info, .button.disabled.info, .button[disabled].info {
@@ -4860,7 +4860,7 @@ fieldset legend {
   margin-bottom: 1rem;
   margin-top: -1px;
   padding: 0.375rem 0.5625rem 0.5625rem;
-  background: #f04124;
+  background: #ED0090;
   color: #FFFFFF;
 }
 /* line 554, ../../zurb_foundation/scss/foundation/components/_forms.scss */
@@ -4877,7 +4877,7 @@ span.error, small.error {
   margin-bottom: 1rem;
   margin-top: -1px;
   padding: 0.375rem 0.5625rem 0.5625rem;
-  background: #f04124;
+  background: #ED0090;
   color: #FFFFFF;
 }
 
@@ -4895,7 +4895,7 @@ span.error, small.error {
 /* line 573, ../../zurb_foundation/scss/foundation/components/_forms.scss */
 .error label,
 .error label.error {
-  color: #f04124;
+  color: #ED0090;
 }
 /* line 578, ../../zurb_foundation/scss/foundation/components/_forms.scss */
 .error small.error {
@@ -4906,7 +4906,7 @@ span.error, small.error {
   margin-bottom: 1rem;
   margin-top: -1px;
   padding: 0.375rem 0.5625rem 0.5625rem;
-  background: #f04124;
+  background: #ED0090;
   color: #FFFFFF;
 }
 /* line 583, ../../zurb_foundation/scss/foundation/components/_forms.scss */
@@ -4934,7 +4934,7 @@ select.error {
 
 /* line 605, ../../zurb_foundation/scss/foundation/components/_forms.scss */
 label.error {
-  color: #f04124;
+  color: #ED0090;
 }
 
 /* line 347, ../../zurb_foundation/scss/foundation/components/_icon-bar.scss */
@@ -5056,7 +5056,7 @@ label.error {
 }
 /* line 182, ../../zurb_foundation/scss/foundation/components/_icon-bar.scss */
 .icon-bar > a:hover {
-  background: #008CBA;
+  background: #040f7a;
 }
 /* line 186, ../../zurb_foundation/scss/foundation/components/_icon-bar.scss */
 .icon-bar > a:hover label {
@@ -5068,7 +5068,7 @@ label.error {
 }
 /* line 191, ../../zurb_foundation/scss/foundation/components/_icon-bar.scss */
 .icon-bar > a.active {
-  background: #008CBA;
+  background: #040f7a;
 }
 /* line 195, ../../zurb_foundation/scss/foundation/components/_icon-bar.scss */
 .icon-bar > a.active label {
@@ -5623,7 +5623,7 @@ kbd {
   white-space: nowrap;
   padding: 0.25rem 0.5rem 0.25rem;
   font-size: 0.6875rem;
-  background-color: #008CBA;
+  background-color: #040f7a;
   color: #FFFFFF;
 }
 /* line 96, ../../zurb_foundation/scss/foundation/components/_labels.scss */
@@ -5636,23 +5636,23 @@ kbd {
 }
 /* line 99, ../../zurb_foundation/scss/foundation/components/_labels.scss */
 .label.alert {
-  background-color: #f04124;
+  background-color: #ED0090;
   color: #FFFFFF;
 }
 /* line 100, ../../zurb_foundation/scss/foundation/components/_labels.scss */
 .label.warning {
-  background-color: #f08a24;
+  background-color: #F29814;
   color: #FFFFFF;
 }
 /* line 101, ../../zurb_foundation/scss/foundation/components/_labels.scss */
 .label.success {
-  background-color: #43AC6A;
+  background-color: #88C045;
   color: #FFFFFF;
 }
 /* line 102, ../../zurb_foundation/scss/foundation/components/_labels.scss */
 .label.secondary {
-  background-color: #e7e7e7;
-  color: #333333;
+  background-color: #88C045;
+  color: #FFFFFF;
 }
 /* line 103, ../../zurb_foundation/scss/foundation/components/_labels.scss */
 .label.info {
@@ -6059,14 +6059,14 @@ ul.pagination li.unavailable:hover a, ul.pagination li.unavailable a:focus, ul.p
 }
 /* line 69, ../../zurb_foundation/scss/foundation/components/_pagination.scss */
 ul.pagination li.current a, ul.pagination li.current button {
-  background: #008CBA;
+  background: #040f7a;
   color: #FFFFFF;
   cursor: default;
   font-weight: bold;
 }
 /* line 75, ../../zurb_foundation/scss/foundation/components/_pagination.scss */
 ul.pagination li.current a:hover, ul.pagination li.current a:focus, ul.pagination li.current button:hover, ul.pagination li.current button:focus {
-  background: #008CBA;
+  background: #040f7a;
 }
 /* line 137, ../../zurb_foundation/scss/foundation/components/_pagination.scss */
 ul.pagination li {
@@ -6124,7 +6124,7 @@ ul.pagination li {
   border-color: #d8d8d8;
   margin-bottom: 1.25rem;
   padding: 1.25rem;
-  background: #ecfaff;
+  background: #e9ebfe;
   color: #333333;
 }
 /* line 61, ../../zurb_foundation/scss/foundation/components/_panels.scss */
@@ -6150,11 +6150,11 @@ ul.pagination li {
 }
 /* line 90, ../../zurb_foundation/scss/foundation/components/_panels.scss */
 .panel.callout a:not(.button) {
-  color: #008CBA;
+  color: #040f7a;
 }
 /* line 93, ../../zurb_foundation/scss/foundation/components/_panels.scss */
 .panel.callout a:not(.button):hover, .panel.callout a:not(.button):focus {
-  color: #0078a0;
+  color: #030d69;
 }
 /* line 100, ../../zurb_foundation/scss/foundation/components/_panels.scss */
 .panel.radius {
@@ -6232,7 +6232,7 @@ ul.pagination li {
 }
 /* line 63, ../../zurb_foundation/scss/foundation/components/_progress-bars.scss */
 .progress .meter {
-  background: #008CBA;
+  background: #040f7a;
   display: block;
   height: 100%;
   float: left;
@@ -6240,7 +6240,7 @@ ul.pagination li {
 }
 /* line 66, ../../zurb_foundation/scss/foundation/components/_progress-bars.scss */
 .progress .meter.secondary {
-  background: #e7e7e7;
+  background: #88C045;
   display: block;
   height: 100%;
   float: left;
@@ -6248,7 +6248,7 @@ ul.pagination li {
 }
 /* line 67, ../../zurb_foundation/scss/foundation/components/_progress-bars.scss */
 .progress .meter.success {
-  background: #43AC6A;
+  background: #88C045;
   display: block;
   height: 100%;
   float: left;
@@ -6256,7 +6256,7 @@ ul.pagination li {
 }
 /* line 68, ../../zurb_foundation/scss/foundation/components/_progress-bars.scss */
 .progress .meter.alert {
-  background: #f04124;
+  background: #ED0090;
   display: block;
   height: 100%;
   float: left;
@@ -6264,7 +6264,7 @@ ul.pagination li {
 }
 /* line 70, ../../zurb_foundation/scss/foundation/components/_progress-bars.scss */
 .progress.secondary .meter {
-  background: #e7e7e7;
+  background: #88C045;
   display: block;
   height: 100%;
   float: left;
@@ -6272,7 +6272,7 @@ ul.pagination li {
 }
 /* line 71, ../../zurb_foundation/scss/foundation/components/_progress-bars.scss */
 .progress.success .meter {
-  background: #43AC6A;
+  background: #88C045;
   display: block;
   height: 100%;
   float: left;
@@ -6280,7 +6280,7 @@ ul.pagination li {
 }
 /* line 72, ../../zurb_foundation/scss/foundation/components/_progress-bars.scss */
 .progress.alert .meter {
-  background: #f04124;
+  background: #ED0090;
   display: block;
   height: 100%;
   float: left;
@@ -6349,12 +6349,12 @@ ul.pagination li {
 }
 /* line 153, ../../zurb_foundation/scss/foundation/components/_range-slider.scss */
 .range-slider.radius .range-slider-handle {
-  background: #008CBA;
+  background: #040f7a;
   border-radius: 3px;
 }
 /* line 118, ../../zurb_foundation/scss/foundation/components/_range-slider.scss */
 .range-slider.radius .range-slider-handle:hover {
-  background: #007ba4;
+  background: #040d6b;
 }
 /* line 155, ../../zurb_foundation/scss/foundation/components/_range-slider.scss */
 .range-slider.round {
@@ -6363,12 +6363,12 @@ ul.pagination li {
 }
 /* line 157, ../../zurb_foundation/scss/foundation/components/_range-slider.scss */
 .range-slider.round .range-slider-handle {
-  background: #008CBA;
+  background: #040f7a;
   border-radius: 1000px;
 }
 /* line 118, ../../zurb_foundation/scss/foundation/components/_range-slider.scss */
 .range-slider.round .range-slider-handle:hover {
-  background: #007ba4;
+  background: #040d6b;
 }
 /* line 159, ../../zurb_foundation/scss/foundation/components/_range-slider.scss */
 .range-slider.disabled, .range-slider[disabled] {
@@ -6378,18 +6378,18 @@ ul.pagination li {
 }
 /* line 161, ../../zurb_foundation/scss/foundation/components/_range-slider.scss */
 .range-slider.disabled .range-slider-handle, .range-slider[disabled] .range-slider-handle {
-  background: #008CBA;
+  background: #040f7a;
   cursor: default;
   opacity: 0.7;
 }
 /* line 118, ../../zurb_foundation/scss/foundation/components/_range-slider.scss */
 .range-slider.disabled .range-slider-handle:hover, .range-slider[disabled] .range-slider-handle:hover {
-  background: #007ba4;
+  background: #040d6b;
 }
 
 /* line 164, ../../zurb_foundation/scss/foundation/components/_range-slider.scss */
 .range-slider-active-segment {
-  background: #e5e5e5;
+  background: #87bf43;
   border-bottom-left-radius: inherit;
   border-top-left-radius: inherit;
   display: inline-block;
@@ -6409,11 +6409,11 @@ ul.pagination li {
   z-index: 1;
   -ms-touch-action: manipulation;
   touch-action: manipulation;
-  background: #008CBA;
+  background: #040f7a;
 }
 /* line 118, ../../zurb_foundation/scss/foundation/components/_range-slider.scss */
 .range-slider-handle:hover {
-  background: #007ba4;
+  background: #040d6b;
 }
 
 /* line 172, ../../zurb_foundation/scss/foundation/components/_reveal.scss */
@@ -6597,7 +6597,7 @@ ul.pagination li {
 }
 /* line 76, ../../zurb_foundation/scss/foundation/components/_side-nav.scss */
 .side-nav li a:not(.button) {
-  color: #008CBA;
+  color: #040f7a;
   display: block;
   margin: 0;
   padding: 0.4375rem 0.875rem;
@@ -6605,15 +6605,15 @@ ul.pagination li {
 /* line 81, ../../zurb_foundation/scss/foundation/components/_side-nav.scss */
 .side-nav li a:not(.button):hover, .side-nav li a:not(.button):focus {
   background: rgba(0, 0, 0, 0.025);
-  color: #1cc7ff;
+  color: #081dea;
 }
 /* line 86, ../../zurb_foundation/scss/foundation/components/_side-nav.scss */
 .side-nav li a:not(.button):active {
-  color: #1cc7ff;
+  color: #081dea;
 }
 /* line 91, ../../zurb_foundation/scss/foundation/components/_side-nav.scss */
 .side-nav li.active > a:first-child:not(.button) {
-  color: #1cc7ff;
+  color: #081dea;
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
 }
@@ -6627,7 +6627,7 @@ ul.pagination li {
 }
 /* line 105, ../../zurb_foundation/scss/foundation/components/_side-nav.scss */
 .side-nav li.heading {
-  color: #008CBA;
+  color: #040f7a;
   font-size: 0.875rem;
   font-weight: bold;
   text-transform: uppercase;
@@ -6825,7 +6825,7 @@ ul.pagination li {
 .sub-nav dd.active a,
 .sub-nav li.active a {
   border-radius: 3px;
-  background: #008CBA;
+  background: #040f7a;
   color: #FFFFFF;
   cursor: default;
   font-weight: normal;
@@ -6835,7 +6835,7 @@ ul.pagination li {
 .sub-nav dt.active a:hover,
 .sub-nav dd.active a:hover,
 .sub-nav li.active a:hover {
-  background: #0078a0;
+  background: #030d69;
 }
 
 /* line 215, ../../zurb_foundation/scss/foundation/components/_switches.scss */
@@ -6898,7 +6898,7 @@ ul.pagination li {
 }
 /* line 110, ../../zurb_foundation/scss/foundation/components/_switches.scss */
 .switch input:checked + label {
-  background: #008CBA;
+  background: #040f7a;
 }
 /* line 114, ../../zurb_foundation/scss/foundation/components/_switches.scss */
 .switch input:checked + label:after {
@@ -6929,7 +6929,7 @@ ul.pagination li {
 }
 /* line 166, ../../zurb_foundation/scss/foundation/components/_switches.scss */
 .switch input:checked + label {
-  background: #008CBA;
+  background: #040f7a;
 }
 /* line 126, ../../zurb_foundation/scss/foundation/components/_switches.scss */
 .switch.large label {
@@ -7199,7 +7199,7 @@ table tr td {
 }
 /* line 48, ../../zurb_foundation/scss/foundation/components/_thumbs.scss */
 .th:hover, .th:focus {
-  box-shadow: 0 0 6px 1px rgba(0, 140, 186, 0.5);
+  box-shadow: 0 0 6px 1px rgba(4, 15, 122, 0.5);
 }
 /* line 63, ../../zurb_foundation/scss/foundation/components/_thumbs.scss */
 .th.radius {
@@ -7216,8 +7216,8 @@ table tr td {
 }
 /* line 44, ../../zurb_foundation/scss/foundation/components/_tooltips.scss */
 .has-tip:hover, .has-tip:focus {
-  border-bottom: dotted 1px #003f54;
-  color: #008CBA;
+  border-bottom: dotted 1px #020737;
+  color: #040f7a;
 }
 /* line 50, ../../zurb_foundation/scss/foundation/components/_tooltips.scss */
 .has-tip.tip-left, .has-tip.tip-right {
@@ -7270,8 +7270,8 @@ table tr td {
 }
 /* line 95, ../../zurb_foundation/scss/foundation/components/_tooltips.scss */
 .tooltip.opened {
-  border-bottom: dotted 1px #003f54 !important;
-  color: #008CBA !important;
+  border-bottom: dotted 1px #020737 !important;
+  color: #040f7a !important;
 }
 
 /* line 101, ../../zurb_foundation/scss/foundation/components/_tooltips.scss */
@@ -7551,13 +7551,13 @@ meta.foundation-mq-topbar {
   font-size: 0.8125rem;
   padding-left: 0.9375rem;
   padding-right: 0.9375rem;
-  background-color: #008CBA;
-  border-color: #007095;
+  background-color: #040f7a;
+  border-color: #030c62;
   color: #FFFFFF;
 }
 /* line 163, ../../zurb_foundation/scss/foundation/components/_buttons.scss */
 .top-bar-section ul li > a.button:hover, .top-bar-section ul li > a.button:focus {
-  background-color: #007095;
+  background-color: #030c62;
 }
 /* line 169, ../../zurb_foundation/scss/foundation/components/_buttons.scss */
 .top-bar-section ul li > a.button:hover, .top-bar-section ul li > a.button:focus {
@@ -7565,27 +7565,27 @@ meta.foundation-mq-topbar {
 }
 /* line 352, ../../zurb_foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button.secondary {
-  background-color: #e7e7e7;
-  border-color: #b9b9b9;
-  color: #333333;
+  background-color: #88C045;
+  border-color: #6d9c35;
+  color: #FFFFFF;
 }
 /* line 163, ../../zurb_foundation/scss/foundation/components/_buttons.scss */
 .top-bar-section ul li > a.button.secondary:hover, .top-bar-section ul li > a.button.secondary:focus {
-  background-color: #b9b9b9;
+  background-color: #6d9c35;
 }
 /* line 169, ../../zurb_foundation/scss/foundation/components/_buttons.scss */
 .top-bar-section ul li > a.button.secondary:hover, .top-bar-section ul li > a.button.secondary:focus {
-  color: #333333;
+  color: #FFFFFF;
 }
 /* line 353, ../../zurb_foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button.success {
-  background-color: #43AC6A;
-  border-color: #368a55;
+  background-color: #88C045;
+  border-color: #6d9c35;
   color: #FFFFFF;
 }
 /* line 163, ../../zurb_foundation/scss/foundation/components/_buttons.scss */
 .top-bar-section ul li > a.button.success:hover, .top-bar-section ul li > a.button.success:focus {
-  background-color: #368a55;
+  background-color: #6d9c35;
 }
 /* line 169, ../../zurb_foundation/scss/foundation/components/_buttons.scss */
 .top-bar-section ul li > a.button.success:hover, .top-bar-section ul li > a.button.success:focus {
@@ -7593,13 +7593,13 @@ meta.foundation-mq-topbar {
 }
 /* line 354, ../../zurb_foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button.alert {
-  background-color: #f04124;
-  border-color: #cf2a0e;
+  background-color: #ED0090;
+  border-color: #be0073;
   color: #FFFFFF;
 }
 /* line 163, ../../zurb_foundation/scss/foundation/components/_buttons.scss */
 .top-bar-section ul li > a.button.alert:hover, .top-bar-section ul li > a.button.alert:focus {
-  background-color: #cf2a0e;
+  background-color: #be0073;
 }
 /* line 169, ../../zurb_foundation/scss/foundation/components/_buttons.scss */
 .top-bar-section ul li > a.button.alert:hover, .top-bar-section ul li > a.button.alert:focus {
@@ -7607,13 +7607,13 @@ meta.foundation-mq-topbar {
 }
 /* line 355, ../../zurb_foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button.warning {
-  background-color: #f08a24;
-  border-color: #cf6e0e;
+  background-color: #F29814;
+  border-color: #c77b0b;
   color: #FFFFFF;
 }
 /* line 163, ../../zurb_foundation/scss/foundation/components/_buttons.scss */
 .top-bar-section ul li > a.button.warning:hover, .top-bar-section ul li > a.button.warning:focus {
-  background-color: #cf6e0e;
+  background-color: #c77b0b;
 }
 /* line 169, ../../zurb_foundation/scss/foundation/components/_buttons.scss */
 .top-bar-section ul li > a.button.warning:hover, .top-bar-section ul li > a.button.warning:focus {
@@ -7638,13 +7638,13 @@ meta.foundation-mq-topbar {
   font-size: 0.8125rem;
   padding-left: 0.9375rem;
   padding-right: 0.9375rem;
-  background-color: #008CBA;
-  border-color: #007095;
+  background-color: #040f7a;
+  border-color: #030c62;
   color: #FFFFFF;
 }
 /* line 163, ../../zurb_foundation/scss/foundation/components/_buttons.scss */
 .top-bar-section ul li > button:hover, .top-bar-section ul li > button:focus {
-  background-color: #007095;
+  background-color: #030c62;
 }
 /* line 169, ../../zurb_foundation/scss/foundation/components/_buttons.scss */
 .top-bar-section ul li > button:hover, .top-bar-section ul li > button:focus {
@@ -7652,27 +7652,27 @@ meta.foundation-mq-topbar {
 }
 /* line 365, ../../zurb_foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > button.secondary {
-  background-color: #e7e7e7;
-  border-color: #b9b9b9;
-  color: #333333;
+  background-color: #88C045;
+  border-color: #6d9c35;
+  color: #FFFFFF;
 }
 /* line 163, ../../zurb_foundation/scss/foundation/components/_buttons.scss */
 .top-bar-section ul li > button.secondary:hover, .top-bar-section ul li > button.secondary:focus {
-  background-color: #b9b9b9;
+  background-color: #6d9c35;
 }
 /* line 169, ../../zurb_foundation/scss/foundation/components/_buttons.scss */
 .top-bar-section ul li > button.secondary:hover, .top-bar-section ul li > button.secondary:focus {
-  color: #333333;
+  color: #FFFFFF;
 }
 /* line 366, ../../zurb_foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > button.success {
-  background-color: #43AC6A;
-  border-color: #368a55;
+  background-color: #88C045;
+  border-color: #6d9c35;
   color: #FFFFFF;
 }
 /* line 163, ../../zurb_foundation/scss/foundation/components/_buttons.scss */
 .top-bar-section ul li > button.success:hover, .top-bar-section ul li > button.success:focus {
-  background-color: #368a55;
+  background-color: #6d9c35;
 }
 /* line 169, ../../zurb_foundation/scss/foundation/components/_buttons.scss */
 .top-bar-section ul li > button.success:hover, .top-bar-section ul li > button.success:focus {
@@ -7680,13 +7680,13 @@ meta.foundation-mq-topbar {
 }
 /* line 367, ../../zurb_foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > button.alert {
-  background-color: #f04124;
-  border-color: #cf2a0e;
+  background-color: #ED0090;
+  border-color: #be0073;
   color: #FFFFFF;
 }
 /* line 163, ../../zurb_foundation/scss/foundation/components/_buttons.scss */
 .top-bar-section ul li > button.alert:hover, .top-bar-section ul li > button.alert:focus {
-  background-color: #cf2a0e;
+  background-color: #be0073;
 }
 /* line 169, ../../zurb_foundation/scss/foundation/components/_buttons.scss */
 .top-bar-section ul li > button.alert:hover, .top-bar-section ul li > button.alert:focus {
@@ -7694,13 +7694,13 @@ meta.foundation-mq-topbar {
 }
 /* line 368, ../../zurb_foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > button.warning {
-  background-color: #f08a24;
-  border-color: #cf6e0e;
+  background-color: #F29814;
+  border-color: #c77b0b;
   color: #FFFFFF;
 }
 /* line 163, ../../zurb_foundation/scss/foundation/components/_buttons.scss */
 .top-bar-section ul li > button.warning:hover, .top-bar-section ul li > button.warning:focus {
-  background-color: #cf6e0e;
+  background-color: #c77b0b;
 }
 /* line 169, ../../zurb_foundation/scss/foundation/components/_buttons.scss */
 .top-bar-section ul li > button.warning:hover, .top-bar-section ul li > button.warning:focus {
@@ -7728,13 +7728,13 @@ meta.foundation-mq-topbar {
 }
 /* line 383, ../../zurb_foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li.active > a {
-  background: #008CBA;
-  color: #000000;
+  background: #FF0000;
+  color: #FF0000;
 }
 /* line 387, ../../zurb_foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li.active > a:hover {
-  background: #0078a0;
-  color: #000000;
+  background: #FF0000;
+  color: #FF0000;
 }
 /* line 395, ../../zurb_foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section .has-form {
@@ -7746,13 +7746,6 @@ meta.foundation-mq-topbar {
 }
 /* line 404, ../../zurb_foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section .has-dropdown > a:after {
-  border: inset 5px;
-  content: "";
-  display: block;
-  height: 0;
-  width: 0;
-  border-color: transparent transparent transparent rgba(0, 0, 0, 0.4);
-  border-left-style: solid;
   margin-right: 0.9375rem;
   margin-top: -4.5px;
   position: absolute;
@@ -7832,7 +7825,7 @@ meta.foundation-mq-topbar {
 }
 /* line 476, ../../zurb_foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section .dropdown label {
-  color: #777777;
+  color: black;
   font-size: 0.625rem;
   font-weight: bold;
   margin-bottom: 0;
@@ -7945,31 +7938,15 @@ meta.foundation-mq-topbar {
   }
   /* line 577, ../../zurb_foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li.active:not(.has-form) a:not(.button) {
-    background: #008CBA;
-    color: #000000;
+    background: #FF0000;
+    color: #FF0000;
     line-height: 2.8125rem;
     padding: 0 0.9375rem;
   }
   /* line 582, ../../zurb_foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li.active:not(.has-form) a:not(.button):hover {
-    background: #0078a0;
-    color: #000000;
-  }
-  /* line 592, ../../zurb_foundation/scss/foundation/components/_top-bar.scss */
-  .top-bar-section .has-dropdown > a {
-    padding-right: 2.1875rem !important;
-  }
-  /* line 594, ../../zurb_foundation/scss/foundation/components/_top-bar.scss */
-  .top-bar-section .has-dropdown > a:after {
-    border: inset 5px;
-    content: "";
-    display: block;
-    height: 0;
-    width: 0;
-    border-color: rgba(0, 0, 0, 0.4) transparent transparent transparent;
-    border-top-style: solid;
-    margin-top: -2.5px;
-    top: 1.40625rem;
+    background: #FF0000;
+    color: #FF0000;
   }
   /* line 602, ../../zurb_foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section .has-dropdown.moved {
@@ -8003,13 +7980,6 @@ meta.foundation-mq-topbar {
     clip: auto;
     display: block;
     position: absolute !important;
-  }
-  /* line 621, ../../zurb_foundation/scss/foundation/components/_top-bar.scss */
-  .top-bar-section .has-dropdown .dropdown li.has-dropdown > a:after {
-    border: none;
-    content: "\00bb";
-    top: 0.1875rem;
-    right: 5px;
   }
   /* line 633, ../../zurb_foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section .dropdown {
@@ -8090,8 +8060,8 @@ meta.foundation-mq-topbar {
   }
   /* line 725, ../../zurb_foundation/scss/foundation/components/_top-bar.scss */
   .no-js .top-bar-section ul li:active > a {
-    background: #008CBA;
-    color: #000000;
+    background: #FF0000;
+    color: #FF0000;
   }
   /* line 733, ../../zurb_foundation/scss/foundation/components/_top-bar.scss */
   .no-js .top-bar-section .has-dropdown:hover > .dropdown {
@@ -8372,13 +8342,13 @@ td {
 /* Default Link Styles */
 /* line 220, ../../zurb_foundation/scss/foundation/components/_type.scss */
 a {
-  color: #008CBA;
+  color: #040f7a;
   line-height: inherit;
   text-decoration: none;
 }
 /* line 225, ../../zurb_foundation/scss/foundation/components/_type.scss */
 a:hover, a:focus {
-  color: #0078a0;
+  color: #030d69;
 }
 /* line 233, ../../zurb_foundation/scss/foundation/components/_type.scss */
 a img {
@@ -8497,8 +8467,8 @@ small {
 
 /* line 307, ../../zurb_foundation/scss/foundation/components/_type.scss */
 code {
-  background-color: #f8f8f8;
-  border-color: #dfdfdf;
+  background-color: #dbecc7;
+  border-color: #c6e1a7;
   border-style: solid;
   border-width: 1px;
   color: #333333;
@@ -10234,4 +10204,63 @@ th.hide-for-touch {
   bottom: 0;
   right: 0;
   text-align: center;
+}
+
+/* line 3, ../scss/layout/_main.scss */
+#block-krause-theme-main-menu > div.sticky.fixed.expanded > nav > section {
+  width: 100%;
+}
+
+/* line 7, ../scss/layout/_main.scss */
+.top-bar-section ul li {
+  padding-top: 0;
+}
+/* line 9, ../scss/layout/_main.scss */
+.top-bar-section ul li a.is-active {
+  color: red;
+}
+
+/* line 15, ../scss/layout/_main.scss */
+#block-sitebranding {
+  background: url("/themes/krause_theme/images/background.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+/* line 22, ../scss/layout/_main.scss */
+#block-sitebranding div:nth-child(2) {
+  width: 20%;
+  padding: 20% 0;
+  margin: auto;
+  line-height: 1;
+  text-align: left;
+  font-weight: 900;
+}
+/* line 30, ../scss/layout/_main.scss */
+#block-sitebranding div:nth-child(2) a {
+  font-size: 400%;
+}
+@media only screen and (max-width: 1230px) {
+  /* line 37, ../scss/layout/_main.scss */
+  #block-sitebranding div:nth-child(2) {
+    padding: 15% 0;
+  }
+  /* line 40, ../scss/layout/_main.scss */
+  #block-sitebranding div:nth-child(2) a {
+    font-size: 350%;
+  }
+}
+@media only screen and (max-width: 730px) {
+  /* line 47, ../scss/layout/_main.scss */
+  #block-sitebranding div:nth-child(2) {
+    padding: 10% 0;
+  }
+  /* line 50, ../scss/layout/_main.scss */
+  #block-sitebranding div:nth-child(2) a {
+    font-size: 250%;
+  }
+}
+
+/* line 60, ../scss/layout/_main.scss */
+#block-krause-theme-main-menu > div.sticky > nav > ul > li.name > img {
+  height: 100%;
 }

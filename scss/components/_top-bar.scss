@@ -27,8 +27,8 @@ $topbar-title-font-size: rem-calc(17) !default;
 // Set the link colors and styles for top-level nav
 $topbar-link-color: $white !default;
 $topbar-link-color-hover: $white !default;
-$topbar-link-color-active: $white !default;
-$topbar-link-color-active-hover: $white !default;
+$topbar-link-color-active: $black !default; 
+$topbar-link-color-active-hover: $black !default;
 $topbar-link-weight: $font-weight-normal !default;
 $topbar-link-font-size: rem-calc(13) !default;
 $topbar-link-hover-lightness: -10% !default; // Darken by 10%
@@ -381,7 +381,7 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
 
         // Apply the active link color when it has that class
         &.active > a {
-          background: $topbar-link-bg-active;
+          background: yellow;
           color: $topbar-link-color-active;
 
           &:hover {

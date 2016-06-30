@@ -1,1 +1,72 @@
 // Non-modular or client styles for the .l-content region.
+
+#block-krause-theme-main-menu > div.sticky.fixed.expanded > nav > section{
+	width: 100%; 
+}
+
+.top-bar-section ul li {
+    padding-top: 0;
+    a.is-active {
+        color: red;
+    }
+}
+
+
+#block-sitebranding{
+	background: url('/themes/krause_theme/images/background.svg');	
+	background-repeat: no-repeat;
+	background-size: 100%;
+
+	// border-bottom:solid $green 1px;
+
+	div:nth-child(2){
+		width: 20%;
+		padding: 20% 0;
+		margin: auto;
+	    line-height: 1;
+	    text-align: left;
+
+    	font-weight: 900;
+    	a{
+
+    		font-size: 400%;
+    	}
+	} 
+
+	@media only screen and (max-width: 1230px) {
+		div:nth-child(2){
+			padding: 15% 0;
+
+			a{
+    			font-size: 350%;
+    			
+    		}
+		}
+	}
+	@media only screen and (max-width: 730px) {
+		div:nth-child(2){
+			padding: 10% 0;
+
+			a{
+    			font-size: 250%;
+    			
+    		}
+		}
+	}
+
+
+}
+
+#block-krause-theme-main-menu > div.sticky > nav > ul > li.name > img{
+	height: 100%;
+}
+
+// body{
+// 	background: url('/themes/krause_theme/images/cheap_diagonal_fabric.png');
+
+//     background-repeat: repeat;
+
+//     section{
+//     	background-color: rgba(255, 255, 255, 0.9);
+//     }
+// }
