@@ -10227,7 +10227,7 @@ th.hide-for-touch {
   background-size: 100%;
 }
 /* line 22, ../scss/layout/_main.scss */
-#block-sitebranding div:nth-child(2) {
+#block-sitebranding div {
   width: 20%;
   padding: 20% 0;
   margin: auto;
@@ -10236,7 +10236,7 @@ th.hide-for-touch {
   font-weight: 900;
 }
 /* line 30, ../scss/layout/_main.scss */
-#block-sitebranding div:nth-child(2) a {
+#block-sitebranding div a {
   font-size: 400%;
 }
 @media only screen and (max-width: 1230px) {
