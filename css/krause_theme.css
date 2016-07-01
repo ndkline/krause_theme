@@ -10313,3 +10313,10 @@ th.hide-for-touch {
   border-radius: 50px;
   padding: 1% 4%;
 }
+
+@media only screen and (max-width: 730px) {
+  /* line 106, ../scss/layout/_main.scss */
+  #block-collegeofedlogo {
+    width: 40%;
+  }
+}
