@@ -2799,8 +2799,8 @@ select {
   margin-left: 0;
   overflow: hidden;
   padding: 0.5625rem 0.875rem 0.5625rem;
-  background-color: #c9e3ab;
-  border-color: #b6d98e;
+  background-color: white;
+  border-color: #FFFFFF;
   border-radius: 3px;
 }
 /* line 123, ../../zurb_foundation/scss/foundation/components/_breadcrumbs.scss */
@@ -10319,4 +10319,32 @@ th.hide-for-touch {
   #block-collegeofedlogo {
     width: 40%;
   }
+}
+/* line 111, ../scss/layout/_main.scss */
+.calendar-calendar td.empty {
+  color: #ED0090;
+}
+
+/* line 115, ../scss/layout/_main.scss */
+.calendar-calendar .month-view .full td.single-day .calendar-empty, .calendar-calendar .month-view .full td.single-day.empty, .calendar-calendar .month-view .full td.date-box.empty {
+  background: #FFFFFF;
+}
+
+/* line 119, ../scss/layout/_main.scss */
+.calendar-calendar td .inner div.day a {
+  color: #040f7a;
+}
+
+/* line 123, ../scss/layout/_main.scss */
+.calendar-calendar .month-view .full tr td.single-day.today, .calendar-calendar .month-view .full td.date-box.today, .calendar-calendar .month-view .full tr td.today, .calendar-calendar .month-view .full tr.odd td.today, .calendar-calendar .month-view .full tr.even td.today {
+  border-color: #88C045;
+}
+
+/* line 130, ../scss/layout/_main.scss */
+nav.pager > ul.js-pager__items li {
+  display: inline-block;
+}
+/* line 133, ../scss/layout/_main.scss */
+nav.pager > ul.js-pager__items li.pager__item--next {
+  float: right;
 }
